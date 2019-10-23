@@ -27,13 +27,3 @@
   justify-content: top;
   color: #66A5AD;
 }
-.App-canvas{
-  background-color: #d5c3aa;
-  min-height: 90vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: top;
-  font-size: calc(10px + 2vmin);
-  color: #867666;
-}
