@@ -20,7 +20,7 @@ function App() {
           How To Register to Vote in Every State
         </a>
         <p>
-        Words  
+          
         </p>
         <a
          className="App-link2"
