@@ -1,24 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hi Danelda.
+          How To Adult: A helpful guide to how to do adult human things.  
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
+        
+      </header>
+      <body>
+      <a
+         className="App-link1"
+          href="https://www.youtube.com/channel/UC7SMwipBlDwBPEwxq8QD8sw"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          How To Register to Vote in Every State
         </a>
-      </header>
+        <p>
+          
+        </p>
+        <a
+         className="App-link2"
+          href= "https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          
+          How To Use React JS
+        </a>
+       
+      </body>
     </div>
   );
 }

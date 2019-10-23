@@ -1,3 +1,13 @@
+Welcome to our How To Adult App, an app designed by a bunch of people who are trying to adult, and want to help other pseudoadults adult too! 
+
+If you have any requests to add information to our website, please email us at:
+
+
+
+All of this information came with the file that Shiki set us up with. It seems like it is important so we're not going to touch it 
+
+To  learn about how to use react, click this linky: https://reactjs.org
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

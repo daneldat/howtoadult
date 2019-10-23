@@ -1,22 +1,39 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
+  text-align: top;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #867666;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: top;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #EaE2D6;
 }
-
-.App-link {
-  color: #09d3ac;
+.App-link1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  color: #66A5AD;
+}
+}
+.App-link2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  color: #66A5AD;
+}
+.App-canvas{
+  background-color: #d5c3aa;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: #867666;
 }
