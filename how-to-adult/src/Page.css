@@ -1,0 +1,74 @@
+.Page {
+    text-align: top;
+  }
+  
+  .Page-header {
+    text-align: center;
+    background-color: #867666;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    font-size: calc(10px + 2vmin);
+    color: #EaE2D6;
+  }
+
+  h1 {
+	text-align: center;
+	font-size: 42px;
+    color: black;
+	line-height: 20px;
+	font-family: "Helvetica";
+	font-weight: bold;
+    
+}
+a:hover{
+	
+	color: #737373;
+}
+
+a:active{
+	
+	color: #6e6968;
+}
+a:link{
+	color: black;
+	
+
+}
+a:visited{
+	color: black;
+	
+}
+
+  .Page-link1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    color: #66A5AD;
+  }
+  
+  .Page-link2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    color: #66A5AD;
+  }
+  .Page-canvas{
+    background-color: #d5c3aa;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    font-size: calc(10px + 2vmin);
+    color: #867666;
+  }
+
+  p { margin-left: 10em; 
+      margin-right: 10em;
+
+  }

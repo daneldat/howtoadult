@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Component } from 'react';
+import ReactDOM from "react";
 import './App.css';
 import './w3.css';
 import Dropdown from './DropdownMenu/Dropdown';
