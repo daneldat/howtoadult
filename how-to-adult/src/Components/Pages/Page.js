@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from "react";
 import './Page.css';
+import Menu from '../../DropdownMenu/Menu';
 
-
-//This is my attempt to create a page component
 
 class Page extends React.Component{
     render(){

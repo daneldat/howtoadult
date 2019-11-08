@@ -16,7 +16,9 @@ class Dropdown extends React.Component {
         <div className="w3-dropdown-hover">
           <button className="w3-button w3-black">How Do I?</button>
           <div className="w3-dropdown-content w3-bar-block w3-border">
-            <a href="#" className="w3-bar-item w3-button">Vote</a>
+            <a href="Page" className="w3-bar-item w3-button">Vote</a>
+            <a href="Page" className="w3-bar-item w3-button">Write a Complaint</a>
+            <a href="Page" className="w3-bar-item w3-button">Cook Basic Food</a>
           </div>
         </div>
       </div>
