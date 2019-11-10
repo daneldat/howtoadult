@@ -14,15 +14,11 @@ import Home from "./Components/Pages/HomeScreen";
 export default () => {
   return (
     //make a navigation dropdown
-//     <div class="w3-sidebar w3-bar-block" style="width:25%">
-//   <a href="#" class="w3-bar-item w3-button">Link 1</a>
-//   <a href="#" class="w3-bar-item w3-button">Link 2</a>
-//   <a href="#" class="w3-bar-item w3-button">Link 3</a>
-// </div>
 
     <Router>
         <Link to="/">Home</Link>
         <Link to="/page/how-to-vote">How To Vote</Link>
+        PageList.map((page, index)) => <Link to= "/page/" + page.props.title + "-pageid" +index/> 
         {/* for every page in PageList, make a Link to /page/{index} */}
       <Switch>
         <Route path="/:id">
