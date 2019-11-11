@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from "react";
-import './Page.css';
+import "../../w3.css";
 import Menu from '../../DropdownMenu/Menu';
 
 

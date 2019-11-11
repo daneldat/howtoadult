@@ -1,5 +1,6 @@
 //Make a homepage
 import React from 'react';
+import "../../w3.css";
 export default () => (
   <div classname="App">
     <header className="App-header">

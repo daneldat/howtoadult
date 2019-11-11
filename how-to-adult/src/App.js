@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import "./w3.css";
 import {
   BrowserRouter as Router,
@@ -18,7 +17,7 @@ export default () => {
     <Router>
         <Link to="/">Home</Link>
         <Link to="/page/how-to-vote">How To Vote</Link>
-        PageList.map((page, index)) => <Link to= "/page/" + page.props.title + "-pageid" +index/> 
+     
         {/* for every page in PageList, make a Link to /page/{index} */}
       <Switch>
         <Route path="/:id">
