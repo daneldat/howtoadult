@@ -15,9 +15,9 @@ export default () => {
 
     <Router>
         <div className ="w3-sidebar w3-bar-block w3-grey" style={{"width":"15%"}}>
-        <Link to="/" className="w3-bar-item w3-button w3-grey">Home</Link>
-        <div className="w3-bar-item w3-grey">How Do I</div>
-        <Link to="/page/how-to-vote" className="w3-bar-item w3-button">Vote?</Link>
+        <li><Link to="/" className="w3-bar-item w3-button w3-grey">Home</Link></li>
+               {PageList.map((Page, index) => (<li><Link to= {"/page/"+Page.props.title.replace(/\s/g,"") + "-pageid" +index} className="w3-bar-item w3-button w3-grey">How to {Page.props.title}</Link></li>))}
+
         </div>
        
      
@@ -38,3 +38,33 @@ export default () => {
             <Users />
           </Route> */}
 {}
+
+
+
+
+// <Switch>
+// <Route path="/page/:id" children={<Child />} />
+//   <Route path="/" component={Home}/>
+// </Switch>
+// </Router>
+// );
+// }
+// function Child() {
+// // We can use the `useParams` hook here to access
+// // the dynamic pieces of the URL.
+// let { id } = useParams();
+// id = id.split("-pageid")[1]
+
+// return (
+// PageList[id]
+// );
+// }
+
+
+// {/* <Route path="/about">
+//       <About />
+//     </Route>
+//     <Route path="/users">
+//       <Users />
+//     </Route> */}
+// {}
