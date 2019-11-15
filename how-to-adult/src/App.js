@@ -4,7 +4,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  useParams
 } from "react-router-dom";
 import PageList from "./Components/Pages/PageList";
 import Home from "./Components/Pages/HomeScreen";
@@ -14,57 +15,35 @@ export default () => {
   return (
 
     <Router>
-        <div className ="w3-sidebar w3-bar-block w3-grey" style={{"width":"15%"}}>
+      <div className="w3-sidebar w3-bar-block w3-grey" style={{ "width": "15%" }}>
         <li><Link to="/" className="w3-bar-item w3-button w3-grey">Home</Link></li>
-               {PageList.map((Page, index) => (<li><Link to= {"/page/"+Page.props.title.replace(/\s/g,"") + "-pageid" +index} className="w3-bar-item w3-button w3-grey">How to {Page.props.title}</Link></li>))}
+        {PageList.map((Page, index) => (<li><Link to={"/page/" + Page.props.title.replace(/\s/g, "") + "-pageid" + index} className="w3-bar-item w3-button w3-grey">How to {Page.props.title}</Link></li>))}
 
-        </div>
-       
-     
-        {/* for every page in PageList, make a Link to /page/{index} */}
+      </div>
+
       <Switch>
-        <Route path="/:id">
-          {PageList[0]}
-        </Route>
-        <Route path="/" component={Home}/>
+        <Route path="/page/:id" children={<Child />} />
+        <Route path="/" component={Home} />
       </Switch>
     </Router>
   );
 }
+function Child() {
+  // We can use the `useParams` hook here to access
+  // the dynamic pieces of the URL.
+  let { id } = useParams();
+  id = id.split("-pageid")[1]
+
+  return (
+    PageList[id]
+  );
+}
+
+
 {/* <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/users">
-            <Users />
-          </Route> */}
-{}
-
-
-
-
-// <Switch>
-// <Route path="/page/:id" children={<Child />} />
-//   <Route path="/" component={Home}/>
-// </Switch>
-// </Router>
-// );
-// }
-// function Child() {
-// // We can use the `useParams` hook here to access
-// // the dynamic pieces of the URL.
-// let { id } = useParams();
-// id = id.split("-pageid")[1]
-
-// return (
-// PageList[id]
-// );
-// }
-
-
-// {/* <Route path="/about">
-//       <About />
-//     </Route>
-//     <Route path="/users">
-//       <Users />
-//     </Route> */}
-// {}
+      <About />
+    </Route>
+    <Route path="/users">
+      <Users />
+    </Route> */}
+{ }
