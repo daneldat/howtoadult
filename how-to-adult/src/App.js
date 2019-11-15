@@ -12,11 +12,14 @@ import Home from "./Components/Pages/HomeScreen";
 
 export default () => {
   return (
-    //make a navigation dropdown
 
     <Router>
-        <Link to="/">Home</Link>
-        <Link to="/page/how-to-vote">How To Vote</Link>
+        <div className ="w3-sidebar w3-bar-block w3-grey" style={{"width":"15%"}}>
+        <Link to="/" className="w3-bar-item w3-button w3-grey">Home</Link>
+        <div className="w3-bar-item w3-grey">How Do I</div>
+        <Link to="/page/how-to-vote" className="w3-bar-item w3-button">Vote?</Link>
+        </div>
+       
      
         {/* for every page in PageList, make a Link to /page/{index} */}
       <Switch>

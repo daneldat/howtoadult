@@ -1,40 +1,32 @@
 import React, { Component } from 'react';
 import ReactDOM from "react";
 import "../../w3.css";
-import Menu from '../../DropdownMenu/Menu';
 
 
-class Page extends React.Component{
-    render(){
+class Page extends React.Component {
+    render() {
         return (
-            <div className="Page">
-                <h1>
-                {this.props.title}
-                </h1>
-                <div style={{ background: "#00FFFF" }}>
-        
-        </div>
-        <p>
-            {this.props.body}
-        </p>
-        <p>
-            Here is a link that you can click on for a video to show you {this.props.title}.
+            <div className="Page " style={{ "margin-left": "15%" }}>
+                <header className="w3-container w3-red w3-center " >
+                    <h2 className="w3-xxlarge">Adulting 101:</h2>
+                    <h2 className="w3-xlarge">{this.props.title}</h2>
+                </header>
+
+                <div>
+
+                </div>
+                <p className="w3-padding">
+                    {this.props.body}
+                </p>
+                <p className="w3-card w3-light-grey w3-margin w3-center w3-padding">
+                    Don't want to read? This video may help: <p></p>
+                    <a href={this.props.link}> {this.props.title}</a>
           </p>
-          <a
-         className="App-link1"
-          href={this.props.link}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {this.props.title}
-        </a>
-         
-        <p>
-            Here is more information about {this.props.title}
-            </p>
-            <p>
-                {this.props.moreInfo}
-            </p>
+               
+               
+                <p className="w3-padding">
+                    {this.props.moreInfo}
+                </p>
             </div>
         );
     }

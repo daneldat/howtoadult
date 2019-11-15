@@ -4,7 +4,8 @@ import Page from './Page';
 export default [
     <Page title="How to Vote"   
         link="https://www.youtube.com/channel/UC7SMwipBlDwBPEwxq8QD8sw"
-        moreInfo="Here’s how to vote in New York State
+        moreInfo=
+        "Here’s how to vote in New York State: 
        Go to https://voterlookup.elections.ny.gov/ to check if you are registered to vote right now 
        If you are not registered to vote, you must do so by october 17th If you are not registered, go to https://dmv.ny.gov/more-info/electronic-voter-registration-application to register. You will need 
        your New York State DMV issued driver license, permit or Non-Driver ID 
