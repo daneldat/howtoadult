@@ -23,7 +23,7 @@ export default () => {
 
       <Switch>
         <Route path="/page/:id" children={<Child />} />
-        <Route path="/" component={Home} />
+        <Route path="/" component={Home}/>
       </Switch>
     </Router>
   );
@@ -35,15 +35,15 @@ function Child() {
   id = id.split("-pageid")[1]
 
   return (
-    PageList[id]
+PageList[id]
   );
 }
 
 
 {/* <Route path="/about">
-      <About />
-    </Route>
-    <Route path="/users">
-      <Users />
-    </Route> */}
-{ }
+            <About />
+          </Route>
+          <Route path="/users">
+            <Users />
+          </Route> */}
+{}

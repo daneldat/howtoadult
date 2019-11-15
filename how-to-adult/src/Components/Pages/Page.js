@@ -21,12 +21,19 @@ class Page extends React.Component {
                 <p className="w3-card w3-light-grey w3-margin w3-center w3-padding">
                     Don't want to read? This video may help: <p></p>
                     <a href={this.props.link}> {this.props.title}</a>
-          </p>
-               
-               
+                </p>
+
+
                 <p className="w3-padding">
                     {this.props.moreInfo}
                 </p>
+                <ol type="1">
+                    <li>{this.props.step1}</li>
+                    <li>{this.props.step2}</li>
+                    <li>{this.props.step3}</li>
+                    <li>{this.props.step4}</li>
+                    <li>{this.props.step5}</li>
+                </ol>
             </div>
         );
     }
