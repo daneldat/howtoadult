@@ -21,8 +21,14 @@ export default [
         " />,
     
     <Page title="How to Boil an Egg"
-        link="https://www.youtube.com/channel/UC7SMwipBlDwBPEwxq8QD8sw"
+        link="https://www.youtube.com/watch?v=3CnAQzEiuvQ"
         moreInfo="eggs good"
+        step1= "Fill a stainless steal pot with enough water to cover the eggs by about an inch. And prepare an ice-bath for your eggs."
+        step2= "Remove your eggs from the fridge while your water boils"
+        step3="Start the timer as soon as you put the eggs in the water"
+        step4= "Cook your eggs according to how hard you want the yolk: Liquid (6 min), soft (8 min), medium (10 min), firm (12 min), traditional (14 min). Placing your eggs in an ice bath as soon as the timer is done. "                                                                                                                                                                                                                        
+       step5="Tap the shell on a hard surface and peel under running water, peeling from the top/bottom of the egg."
+        
         body="So many eggs" />,
     
     <Page title="How to Work on Homework even though you really want another beer"
