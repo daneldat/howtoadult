@@ -19,9 +19,19 @@ export default [
        "
         body="In the United States, the rules to vote in every state is different, but it does not have to be confusing. Every voice counts. Every vote counts. Whether you’re happy with the way you are being represented now, or if you think you could be represented better, voting is paramount in adulting. 
         " />,
-    <Page title="How to Vote Duplicate"
+    
+    <Page title="How to Boil an Egg"
         link="https://www.youtube.com/channel/UC7SMwipBlDwBPEwxq8QD8sw"
-        moreInfo="really alot"
-        body="First you have to be 18 years of age to vote.  But that does not mean that you should wait until you are 18 to register to vote.  Once you have registered to vote then you need to know where to vote...etc. I wonder if this text will wrap around or wehterh I need to figure out how to code that" />,
-    //add more pages here
+        moreInfo="eggs good"
+        body="So many eggs" />,
+    
+    <Page title="How to Work on Homework even though you really want another beer"
+        link="https://youtu.be/RwTjsRt0Fzo"
+        moreInfo="realize that other people are counting on you and just get it done"
+        body ="No.  really. go home and try again.  It has been long enough that it is like you are starting from scratch and so you can look at the problem with fresh eyes.
+        Do not forget that the learning happens in the struggle.  Girlllll, you have learned alot this week! " 
+        />
+
+
+        //add more pages here
 ]

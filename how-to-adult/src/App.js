@@ -5,10 +5,13 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  useParams
 } from "react-router-dom";
 import PageList from "./Components/Pages/PageList";
 import Home from "./Components/Pages/HomeScreen";
+import Page from "./Components/Pages/Page";
+
 
 
 export default () => {
@@ -16,19 +19,41 @@ export default () => {
     //make a navigation dropdown
 
     <Router>
-        <Link to="/">Home</Link>
-        <Link to="/page/how-to-vote">How To Vote</Link>
-        PageList.map((page, index)) => <Link to= "/page/" + page.props.title + "-pageid" +index/> 
+     <div style={{ display: 'flex' }}>
+        <div style={{
+          padding: '10px',
+          width: '40%',
+          background: '#f0f0f0'
+        }}>
+          <ul style={{ listStyleType: 'none', padding: 0 }}>
+        <li><Link to="/">Home</Link></li>
+        {PageList.map((Page, index) => (<li><Link to= {"/page/"+Page.props.title.replace(/\s/g,"") + "-pageid" +index}>How to {Page.props.title}</Link></li>))}
+        </ul>
+        </div>
+      </div>
         {/* for every page in PageList, make a Link to /page/{index} */}
       <Switch>
-        <Route path="/:id">
-          {PageList[0]}
-        </Route>
+        <Route path="/page/:id" children={<Child />} />
         <Route path="/" component={Home}/>
       </Switch>
+     
     </Router>
   );
 }
+
+
+function Child() {
+  // We can use the `useParams` hook here to access
+  // the dynamic pieces of the URL.
+  let { id } = useParams();
+  id = id.split("-pageid")[1]
+
+  return (
+PageList[id]
+  );
+}
+
+
 {/* <Route path="/about">
             <About />
           </Route>
