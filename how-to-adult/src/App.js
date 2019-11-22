@@ -9,6 +9,9 @@ import {
 } from "react-router-dom";
 import PageList from "./Components/Pages/PageList";
 import Home from "./Components/Pages/HomeScreen";
+import List from "./Components/Pages/List";
+import YouTube from 'react-youtube-embed'
+
 
 
 export default () => {
@@ -17,7 +20,7 @@ export default () => {
     <Router>
       <div className="w3-sidebar w3-bar-block w3-grey" style={{ "width": "15%" }}>
         <li><Link to="/" className="w3-bar-item w3-button w3-grey">Home</Link></li>
-        {PageList.map((Page, index) => (<li><Link to={"/page/" + Page.props.title.replace(/\s/g, "") + "-pageid" + index} className="w3-bar-item w3-button w3-grey">How to {Page.props.title}</Link></li>))}
+        {PageList.map((Page, index) => (<li><Link to={"/page/" + Page.props.title.replace(/\s/g, "") + "-pageid" + index} className="w3-bar-item w3-button w3-grey"> {Page.props.title}</Link></li>))}
 
       </div>
 
@@ -40,10 +43,4 @@ PageList[id]
 }
 
 
-{/* <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/users">
-            <Users />
-          </Route> */}
 {}

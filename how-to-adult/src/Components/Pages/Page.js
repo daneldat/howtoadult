@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from "react";
 import "../../w3.css";
+import YouTube from 'react-youtube-embed'
 
 
 class Page extends React.Component {
@@ -16,8 +17,14 @@ class Page extends React.Component {
 
                 </div>
                 <p className="w3-padding">
-                    {this.props.body}
+                    {this.props.introduction}
                 </p>
+                
+                {//<p classname=".w3-container" style ={height = "10vh"}>
+                //<YouTube id = {this.props.video} />
+                //</p>
+                 }   
+
                 <p className="w3-card w3-light-grey w3-margin w3-center w3-padding">
                     Don't want to read? This video may help: <p></p>
                     <a href={this.props.link}> {this.props.title}</a>

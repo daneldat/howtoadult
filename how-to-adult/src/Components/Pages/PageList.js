@@ -3,7 +3,10 @@ import Page from './Page';
 
 export default [
     <Page title="How to Vote"   
+        quote ="Insert a cool quote about votinig here!"
+        icon =""
         link="https://www.youtube.com/channel/UC7SMwipBlDwBPEwxq8QD8sw"
+        video = "g_Gbv6LYvpU"
         moreInfo= 
         "Here’s how to vote in New York State"
         step1= "Go to https://voterlookup.elections.ny.gov/ to check if you are registered to vote right now"
@@ -17,11 +20,12 @@ export default [
         The sooner you do this, the more informed you can be "                                                                                                                                                                                                                        
        step5=" If you are voting in person, go to this link: https://www.elections.ny.gov/CountyBoards.html, to see where you can vote
        To be more informed, research the candidates or go to isidewith.com. Check out the candidates for your district and take the quiz to see how your political views align with those of your candidates. "
-        body="In the United States, the rules to vote in every state is different, but it does not have to be confusing. Every voice counts. Every vote counts. Whether you’re happy with the way you are being represented now, or if you think you could be represented better, voting is paramount in adulting. 
+        introduction="In the United States, the rules to vote in every state is different, but it does not have to be confusing. Every voice counts. Every vote counts. Whether you’re happy with the way you are being represented now, or if you think you could be represented better, voting is paramount in adulting. 
         " />,
     
     <Page title="How to Boil an Egg"
         link="https://www.youtube.com/watch?v=3CnAQzEiuvQ"
+        video= "3CnAQzEiuvQ"
         moreInfo="eggs good"
         step1= "Fill a stainless steal pot with enough water to cover the eggs by about an inch. And prepare an ice-bath for your eggs."
         step2= "Remove your eggs from the fridge while your water boils"
@@ -29,13 +33,20 @@ export default [
         step4= "Cook your eggs according to how hard you want the yolk: Liquid (6 min), soft (8 min), medium (10 min), firm (12 min), traditional (14 min). Placing your eggs in an ice bath as soon as the timer is done. "                                                                                                                                                                                                                        
        step5="Tap the shell on a hard surface and peel under running water, peeling from the top/bottom of the egg."
         
-        body="So many eggs" />,
+        introduction="So many eggs" />,
     
     <Page title="How to Work on Homework even though you really want another beer"
         link="https://youtu.be/RwTjsRt0Fzo"
+        video="3CnAQzEiuvQ"
         moreInfo="realize that other people are counting on you and just get it done"
-        body ="No.  really. go home and try again.  It has been long enough that it is like you are starting from scratch and so you can look at the problem with fresh eyes.
+        introduction ="No.  really. go home and try again.  It has been long enough that it is like you are starting from scratch and so you can look at the problem with fresh eyes.
         Do not forget that the learning happens in the struggle.  Girlllll, you have learned alot this week! " 
+        step1= "Open another beer"
+        step2= "Check facebook"
+        step3="Go to the website Adulting 101"
+        step4= "Tell Kayla to send you some adulting ideas "                                                                                                                                                                                                                        
+       step5="Get to Work and drink beer from step 1"
+        
         />
 
 
