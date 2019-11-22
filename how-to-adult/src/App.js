@@ -16,8 +16,8 @@ export default () => {
 
     <Router>
       <div className="w3-sidebar w3-bar-block w3-grey" style={{ "width": "15%" }}>
-        <li><Link to="/" className="w3-bar-item w3-button w3-grey">Home</Link></li>
-        {PageList.map((Page, index) => (<li><Link to={"/page/" + Page.props.title.replace(/\s/g, "") + "-pageid" + index} className="w3-bar-item w3-button w3-grey"> {Page.props.title}</Link></li>))}
+        <Link to="/" className="w3-bar-item w3-button w3-grey">Home</Link>
+        {PageList.map((Page, index) => (<Link to={"/page/" + Page.props.title.replace(/\s/g, "") + "-pageid" + index} className="w3-bar-item w3-button w3-grey"> {Page.props.title}</Link>))}
 
       </div>
 
@@ -38,7 +38,6 @@ function Child() {
 PageList[id]
   );
 }
-
 
 {/* <Route path="/about">
             <About />

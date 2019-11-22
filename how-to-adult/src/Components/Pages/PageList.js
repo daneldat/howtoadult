@@ -1,9 +1,11 @@
 import React from 'react';
 import Page from './Page';
 
+
 export default [
     <Page title="How to Vote"   
         link="https://www.youtube.com/channel/UC7SMwipBlDwBPEwxq8QD8sw"
+        videoID="https://www.youtube-nocookie.com/embed/g_Gbv6LYvpU" 
         moreInfo= 
         "Here’s how to vote in New York State"
         step1= "Go to https://voterlookup.elections.ny.gov/ to check if you are registered to vote right now"
@@ -22,6 +24,7 @@ export default [
     
     <Page title="How to Boil an Egg"
         link="https://www.youtube.com/watch?v=3CnAQzEiuvQ"
+        videoID="https://www.youtube-nocookie.com/embed/3CnAQzEiuvQ" 
         moreInfo="eggs good"
         step1= "Fill a stainless steal pot with enough water to cover the eggs by about an inch. And prepare an ice-bath for your eggs."
         step2= "Remove your eggs from the fridge while your water boils. Place your eggs in a cup of water. If they float, they're bad. Do not use that egg. If they sink, they're good. DO use that egg."
@@ -33,6 +36,7 @@ export default [
     
     <Page title="How to Work on Homework even though you really want another beer"
         link="https://youtu.be/RwTjsRt0Fzo"
+        videoID= "https://www.youtube-nocookie.com/embed/RwTjsRt0Fzo"
         moreInfo="realize that other people are counting on you and just get it done"
         body ="No.  really. go home and try again.  It has been long enough that it is like you are starting from scratch and so you can look at the problem with fresh eyes.
         Do not forget that the learning happens in the struggle.  Girlllll, you have learned alot this week! " 

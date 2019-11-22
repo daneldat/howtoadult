@@ -1,9 +1,10 @@
 //Make a homepage
 import React from 'react';
 import "../../w3.css";
-export default () => (
 
-  <div classname="HomeScreen" style={{ "margin-left": "15%" }}>
+export default () => (
+    <div className="w3-white"> 
+    <div classname="w3-red w3-bar-block" style={{ "margin-left": "15%" }}>
 
     {/* Header */}
     <header className="w3-container w3-red w3-center" >
@@ -16,10 +17,18 @@ export default () => (
       Are you an adult who doesn't know how to adult? You've made it to the right place!
       As fellow pseudo-adults, our researchers have scoured far and wide to identify key problems that we face in our daily lives, and consulted some adultier adults to give us some answers.
       Just click on one of the links on the sidebar to learn how to adult, and if you have any questions or ideas to add to our database of adulting tips, let us know down below
-   </p>
-   
-   </div>
 
+   </p>
+ 
+    <p className="w3-container" style={{"height":"500"}}>
+           
+
+
+           
+    </p>
+   </div>
+   </div>
+   
 
     )
     
