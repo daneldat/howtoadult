@@ -3,7 +3,8 @@ import Page from './Page';
 
 export default [
     <Page title="How to Vote"   
-        quote ="Insert a cool quote about votinig here!"
+        quote ="Nobody will ever deprive the American people of the right to vote except the American people themselves and the only way they could do this is by not voting."
+        quoteAuthor ="Franklin D. Roosevelt"
         icon =""
         link="https://www.youtube.com/channel/UC7SMwipBlDwBPEwxq8QD8sw"
         video = "g_Gbv6LYvpU"
@@ -24,6 +25,8 @@ export default [
         " />,
     
     <Page title="How to Boil an Egg"
+        quote ="Put all your eggs in one basket and then Watch That Basket!"
+        quoteAuthor ="Andrew Carnegie"
         link="https://www.youtube.com/watch?v=3CnAQzEiuvQ"
         video= "3CnAQzEiuvQ"
         moreInfo="eggs good"
@@ -34,18 +37,58 @@ export default [
        step5="Tap the shell on a hard surface and peel under running water, peeling from the top/bottom of the egg."
         
         introduction="So many eggs" />,
+
+        <Page title="How to Get Out of Bed in the Morning"
+        quote ="the courage it took to get out of bed each morning to face the same things over and over was enormous."
+        quoteAuthor ="Charles Bukowski"
+        link="https://www.youtube.com/watch?v=0iwkTJBfW2I"
+        video= "0iwkTJBfW2I"
+        moreInfo=""
+        step1= "Give yourself 15 minutes to get out of bed."
+        step2= "Text a friend and ask for motivation."
+        step3="Check out the youtube video while you are waiting."
+        step4= "Recieve text from friend with motivation."                                                                                                                                                                                                                        
+        step5="Get out of bed and start your day."
+        introduction="Sometimes as an adult it is hard to get out of bed in the morning.  Granted there are days and jobs where you could take a sick day or a mental health day, but if that was the case for you, then you wouldn't be on this site right now.  So you have to wake up this morning. What are we going to do about it?" />,
+
+    <Page title="How to Unfreeze a Frozen Car Lock"
+        quote ="Some people are worth melting for."
+        quoteAuthor ="Olaf (Frozen)"
+        link="https://www.youtube.com/watch?v=enFZqLjOYHg"
+        video= "enFZqLjOYHg"
+        moreInfo="If you try to use boiling water, the water can melt plastic parts that are in many cars these days.  This can cause costly repairs tomorrow.  Don't do it!!"
+        step1= "Do NOT use boiling water!"
+        step2= "If you have lock de-icer - use that!"
+        step3="If you are close enough to an outlet - you can use a hair dryer."
+        step4= "Try heating your key with your hand or GENTLY with a lighter (you might have to try several times)."                                                                                                                                                                                                                        
+        step5="Don't use boiling water!"
+        introduction="Winter brings with it many issues that an adult must deal with.  The locks on your car might freeze.  You might be tempted to use boiling water to thaw the lock, but the experts agree - Don't do this!! " />,    
     
-    <Page title="How to Work on Homework even though you really want another beer"
-        link="https://youtu.be/RwTjsRt0Fzo"
-        video="3CnAQzEiuvQ"
+    <Page title=""
+        quote =""
+        quoteAuthor =""
+        link=""
+        video= ""
+        moreInfo=""
+        step1= ""
+        step2= ""
+        step3=""
+        step4= ""                                                                                                                                                                                                                        
+        step5=""
+        introduction="" />,    
+    
+    <Page title="How to Work on Homework even though you really want another Beer"
+        quote ="That's what I do, I drink and I know things."
+        quoteAuthor ="Tyrion Lannister"
+        link="https://www.youtube.com/watch?v=TZE9gVF1QbA"
+        video="TZE9gVF1QbA"
         moreInfo="realize that other people are counting on you and just get it done"
-        introduction ="No.  really. go home and try again.  It has been long enough that it is like you are starting from scratch and so you can look at the problem with fresh eyes.
-        Do not forget that the learning happens in the struggle.  Girlllll, you have learned alot this week! " 
+        introduction ="Shortly after becoming an adult, you turn 21 and you can now drink legally.  It's important to drink responsibly." 
         step1= "Open another beer"
         step2= "Check facebook"
         step3="Go to the website Adulting 101"
-        step4= "Tell Kayla to send you some adulting ideas "                                                                                                                                                                                                                        
-       step5="Get to Work and drink beer from step 1"
+        step4= "Get inspired."                                                                                                                                                                                                                        
+        step5="Get to Work and drink beer from step 1"
         
         />
 

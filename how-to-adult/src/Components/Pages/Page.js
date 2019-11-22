@@ -11,6 +11,11 @@ class Page extends React.Component {
                 <header className="w3-container w3-red w3-center " >
                     <h2 className="w3-xxlarge">Adulting 101:</h2>
                     <h2 className="w3-xlarge">{this.props.title}</h2>
+                    <div class="w3-panel w3-leftbar w3-light-grey">
+                    <p class="w3-xlarge w3-serif">
+                    <i>{this.props.quote}</i></p>
+                    <p>{this.props.quoteAuthor}</p>
+                    </div>
                 </header>
 
                 <div>
