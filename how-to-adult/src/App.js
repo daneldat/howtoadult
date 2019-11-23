@@ -8,16 +8,16 @@ import {
   useParams
 } from "react-router-dom";
 import PageList from "./Components/Pages/PageList";
-import Home from "./Components/Pages/HomeScreen";
+import Home from "../src/Components/Pages/HomeScreen";
 
 
 export default () => {
   return (
 
     <Router>
-      <div className="w3-sidebar w3-bar-block w3-grey" style={{ "width": "15%" }}>
-        <Link to="/" className="w3-bar-item w3-button w3-grey">Home</Link>
-        {PageList.map((Page, index) => (<Link to={"/page/" + Page.props.title.replace(/\s/g, "") + "-pageid" + index} className="w3-bar-item w3-button w3-grey"> {Page.props.title}</Link>))}
+      <div className="w3-sidebar w3-bar-block w3-blue-grey" style={{ "width": "15%" }}>
+        <Link to="/" className="w3-bar-item w3-button w3-blue-grey">Home</Link>
+        {PageList.map((Page, index) => (<Link to={"/page/" + Page.props.title.replace(/\s/g, "") + "-pageid" + index} className="w3-bar-item w3-button w3-blue-grey"> {Page.props.title}</Link>))}
 
       </div>
 
