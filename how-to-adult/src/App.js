@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import PageList from "./Components/Pages/PageList";
 import Home from "../src/Components/Pages/HomeScreen";
+import List from "./Components/Pages/List";
 
 
 export default () => {
