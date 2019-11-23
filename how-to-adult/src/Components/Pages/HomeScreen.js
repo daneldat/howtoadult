@@ -66,8 +66,7 @@ class Home extends React.Component {
       list: [],
       workingList: []
     }
-
     this.state.list= PageList.map((Page, index) => (<li><Link to={"/page/" + Page.props.title.replace(/\s/g, "") + "-pageid" + index} className="w3-bar-item w3-button w3-grey"> {Page.props.title}</Link></li>))
     this.state.workingList = this.state.list.map(link => ({link, text: link.props.children.props.children[1]}))
   }
-
+}
