@@ -49,8 +49,8 @@ export default class HomeScreen extends React.Component {
     }
     this.state.list= 
     PageList.map((Page, index) => 
-    (<ul><Link to={"/page/" + Page.props.title.replace(/\s/g, "") + "-pageid" + index} className="w3-bar-item w3-button w3-bue-grey"> {Page.props.title}</Link></ul>))
-    this.state.workingList = this.state.list.map(link => ({link, text: link.props.children.props.children[1]}))
+    (<Link to={"/page/" + Page.props.title.replace(/\s/g, "") + "-pageid" + index} className="w3-bar-item w3-button w3-bue-grey"> {Page.props.title}</Link>))
+    this.state.workingList = this.state.list.map(link => ({link, text: link.props.children[1]}))
   }
   render() {
     return (

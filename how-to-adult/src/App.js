@@ -17,6 +17,7 @@ export default () => {
 
     <Router>
       <div className="w3-sidebar w3-bar-block w3-blue-grey" style={{ "width": "15%" }}>
+        
         <Link to="/" className="w3-bar-item w3-button w3-blue-grey">Home</Link>
         {PageList.map((Page, index) => (<Link to={"/page/" + Page.props.title.replace(/\s/g, "") + "-pageid" + index} className="w3-bar-item w3-button w3-blue-grey"> {Page.props.title}</Link>))}
 
