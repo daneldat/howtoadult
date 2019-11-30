@@ -30,13 +30,6 @@ export default class App extends React.Component {
   
   }
 
-  child() {
-  let { id } = useParams();
-  id = id.split("-pageid")[1]
-  return (
-    PageList[id]
-  );
-  }
 
   render() {
     return (
@@ -48,7 +41,7 @@ export default class App extends React.Component {
         </div>
 
         <Switch>
-          <Route path="/page/:id" children={this.child} />
+          <Route path="/page/:id" children=<Child /> />
           <Route path="/" component={Home} />
         </Switch>
       </Router>
@@ -56,3 +49,13 @@ export default class App extends React.Component {
   }
 }
 
+function Child() {
+  // We can use the `useParams` hook here to access
+  // the dynamic pieces of the URL.
+  let { id } = useParams();
+  id = id.split("-pageid")[1]
+
+  return (
+PageList[id]
+  );
+}
