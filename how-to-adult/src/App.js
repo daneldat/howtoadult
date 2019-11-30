@@ -11,6 +11,9 @@ import PageList from "./Components/Pages/PageList";
 import Home from "../src/Components/Pages/HomeScreen";
 import List from "./Components/Pages/List";
 
+
+
+
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -22,12 +25,14 @@ export default class App extends React.Component {
       PageList.map((Page, index) =>
         (<Link to={"/page/" + Page.props.title.replace(/\s/g, "") + "-pageid" + index} className="w3-bar-item w3-button w3-bue-grey"> {Page.props.title}</Link>))
     this.state.workingList = this.state.list.map(link => ({ link, text: link.props.children[1] }))
+  
+  
+  
   }
 
   child() {
-    let { id } = useParams();
+  let { id } = useParams();
   id = id.split("-pageid")[1]
-
   return (
     PageList[id]
   );

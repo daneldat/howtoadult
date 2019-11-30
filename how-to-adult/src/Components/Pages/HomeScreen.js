@@ -43,15 +43,8 @@ class QuoteBank extends Component {
 export default class HomeScreen extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      list: [],
-      workingList: []
-    }
-    this.state.list= 
-    PageList.map((Page, index) => 
-    (<Link to={"/page/" + Page.props.title.replace(/\s/g, "") + "-pageid" + index} className="w3-bar-item w3-button w3-bue-grey"> {Page.props.title}</Link>))
-    this.state.workingList = this.state.list.map(link => ({link, text: link.props.children[1]}))
   }
+  
   render() {
     return (
       <div className='w3-container w3-blue-grey' style={{ "height": "100vh", "overflow":"auto"}}>
@@ -64,7 +57,6 @@ export default class HomeScreen extends React.Component {
              Just click on one of the links on the sidebar to learn how to adult, and if you have any questions or ideas to add to our database of adulting tips, let us know down below
        </p>
        <QuoteBank/>
-       <List items={this.state.workingList} />
         </div>
       </div>
     )
