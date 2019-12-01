@@ -169,7 +169,7 @@ export default [
         step5=""
         introduction="" />, 
 
-        Page title="How to Make a Doctor's Appointment"
+        <Page title="How to Make a Doctor's Appointment"
         videoID= "https://www.youtube-nocookie.com/embed/"
         quote =""
         quoteAuthor =""
@@ -179,7 +179,7 @@ export default [
         step3=""
         step4= ""                                                                                                                                                                                                                        
         step5=""
-        introduction="" />, 
+        introduction="" />,  
        
         <Page title="How to write a Check"
         videoID= "https://www.youtube-nocookie.com/embed/"
@@ -193,7 +193,7 @@ export default [
         step5=""
         introduction="" />, 
 
-        Page title="How to Make A How To"
+        <Page title="How to Make A How To"
         videoID= "https://www.youtube-nocookie.com/embed/"
         quote =""
         quoteAuthor =""
