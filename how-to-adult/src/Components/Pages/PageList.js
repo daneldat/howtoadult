@@ -59,8 +59,9 @@ introduction = "So many eggs" />,
         step3="If you are close enough to an outlet - you can use a hair dryer."
         step4="Try heating your key with your hand or GENTLY with a lighter (you might have to try several times)."
         step5="Don't use boiling water!"
-        introduction="Winter brings with it many issues that an adult must deal with.  The locks on your car might freeze.  You might be tempted to use boiling water to thaw the lock, but the experts agree - Don't do this!! " /> ,
-
+        introduction="Winter brings with it many issues that an adult must deal with.  The locks on your car might freeze.  You might be tempted to use boiling water to thaw the lock, but the experts agree - Don't do this!! " />,    
+    
+   
     <Page title="How to Unclog Your Toilet"
         videoID="https://www.youtube-nocookie.com/embed/tEMdOD9mqa0"
         quote="There's no place like home. And there's no toilet like your own."

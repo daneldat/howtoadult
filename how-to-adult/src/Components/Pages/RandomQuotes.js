@@ -12,7 +12,8 @@ const randQuotes =
  ["Imagine Your Life Is Perfect In Every Respect; What Would It Look Like?", "Brian Tracy"],
  ["We Generate Fears While We Sit. We Overcome Them By Action.","Dr. Henry Link"],
  ["Whether You Think You Can Or Think You Can\’t, You’re Right.", "Henry Ford"],
- ["Security Is Mostly A Superstition. Life Is Either A Daring Adventure Or Nothing.","Helen Keller"]
+ ["Security Is Mostly A Superstition. Life Is Either A Daring Adventure Or Nothing.","Helen Keller"],
+ ["Leave nothing for tomorrow which can be done today.", "Abraham Lincoln"]
 ];
 
 export default randQuotes;

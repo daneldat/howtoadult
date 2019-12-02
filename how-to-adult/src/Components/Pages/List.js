@@ -63,20 +63,17 @@ class List extends React.Component {
   render() {
     return (
       <div>
-        <input type="text" className="input" onChange={this.handleChange} placeholder="Help! How do I....Search..." />
-
-        <div className="content">
-          <div className="container">
-            <section className="section">
+        <input type="text" className="input" onChange={this.handleChange} placeholder="Help! How do I..." />
+          <div className="w3-container">
+            <div>
               <ul>
-
                 {this.state.filtered.map(({ link, text }) => (
                   <ul key={link}> {link} </ul>
                 ))}
               </ul>
-            </section>
+            </div>
           </div>
-        </div>
+        
 
       </div>
     );
