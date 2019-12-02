@@ -123,11 +123,9 @@ export default [
         introduction="" />,    
         
     <Page title="How to be a good Dinner Guest"
-        videoID= "https://www.youtube.com/watch?v=KU3zkxBAEPc"
+        videoID= "https://www.youtube-nocookie.com/embed/KU3zkxBAEPc"
         quote ="If you can't be kind, at least be vague."
         quoteAuthor ="Judith Martin"
-        link="https://www.youtube.com/watch?v=KU3zkxBAEPc"
-        video= "https://www.youtube.com/watch?v=KU3zkxBAEPc"
         moreInfo="When you are adulting, you are more likely to get dinner party invites.  These are different than the ragers you might have attended in college.  A lot of work goes into hosting a dinner party, and so it is only right that you as an adulting dinner party guest do it right."
         step1= "Respond to the invite. You probably got the invite as a text or in person.  Respond using the same form of communication unless specifically told otherwise."
         step2= "Ask the host if you can bring anything.  If the host gives you a specific item to bring, then you need to make sure to bring it."
@@ -137,11 +135,9 @@ export default [
         introduction="" />,    
 
      <Page title="How to do Laundry at a Landromat"
-        videoID= "https://www.youtube.com/watch?v=QsyPECwiolw"
+        videoID= "https://www.youtube-nocookie.com/embed/QsyPECwiolw"
         quote ="Now they show you how detergents take out bloodstains, a pretty violent image there.  I think if you've got a T-shirt with a bloodstain all over it, maybe laundry isn't your biggest problem.  Maybe you should get rid of the body before you do the wash."
         quoteAuthor ="Jerry Seinfeld"
-        link="https://www.youtube.com/watch?v=QsyPECwiolw"
-        video= "https://www.youtube.com/watch?v=QsyPECwiolw"
         moreInfo="You've always been able to do laundry at your folks or on campus, but now you have moved some place new and you don't have laundry facilities.  Going to a laundromat for the first time can be scary, but you may find out that you like it even more than doing laundry at home.  Some benfits include: being able to get many loads done all within about an hour, making new friends, having time where you are forced to read a book or talk to other grownups."
         step1= "Find a laundromat.  It might help to do a dry run without clothes so you can see what the inside set up is.  You might even ask the other patrons at this time to recommend the hot dryers!"
         step2= "Determine if you need to bring your own quarters with you or if you can make change at the laundromat.  Plan accordingly."
@@ -151,11 +147,10 @@ export default [
         introduction="" />,    
         
     <Page title="How to Put a Hold on Your Mail"
-        videoID= "https://www.youtube.com/watch?v=Xxd3UV8hxCY"
+        videoID= "https://www.youtube-nocookie.com/embed/Xxd3UV8hxCY"
         quote ="The proper definition of a man is an animal that writes letters."
         quoteAuthor ="Lewis Carroll"
-        link="https://www.youtube.com/watch?v=Xxd3UV8hxCY"
-        video= "https://www.youtube.com/watch?v=Xxd3UV8hxCY"
+
         moreInfo="When you leave town for vacation or work, you may want to place your mail on hold.  This prevents your mail from piling up and thieves from knowing that you are out of town.  It is super easy to do, and worth the 5 minute initial set up time.  There is no cost.  And if your dates change, it is easy to update the system."
         step1= "Go to www.usps.com and click on the /'Track /& Manage/' tab. "
         step2= "Select Hold Mail."
