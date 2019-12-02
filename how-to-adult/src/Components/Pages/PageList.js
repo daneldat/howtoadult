@@ -158,17 +158,42 @@ introduction = "So many eggs" />,
         step5="Most of your laundry can be washed in cold water, except for cotton underwear, bedsheets and towels which should be washed in hot water."
         introduction="" /> ,
 
-    <Page title="How to Choose a Bank"
-        videoID="https://www.youtube-nocookie.com/embed/rPCM6JpwNSs"
-        quote="A Penny Saved is a Penny Earned"
-        quoteAuthor="Benjamin Franklin"
-        moreInfo=""
-        step1=""
-        step2=""
-        step3=""
-        step4=""
-        step5=""
-        introduction="" /> ,
+        <Page title="How to be a good Dinner Guest"
+        videoID= "https://www.youtube-nocookie.com/embed/KU3zkxBAEPc"
+        quote ="If you can't be kind, at least be vague."
+        quoteAuthor ="Judith Martin"
+        moreInfo="When you are adulting, you are more likely to get dinner party invites.  These are different than the ragers you might have attended in college.  A lot of work goes into hosting a dinner party, and so it is only right that you as an adulting dinner party guest do it right."
+        step1= "Respond to the invite. You probably got the invite as a text or in person.  Respond using the same form of communication unless specifically told otherwise."
+        step2= "Ask the host if you can bring anything.  If the host gives you a specific item to bring, then you need to make sure to bring it."
+        step3="Sometimes the answer will be, 'just bring yourself'.  You should still bring something.  A bottle of wine (they can serve with dinner or save to drink later).  A bouquet of flowers.  The host has put effort into this party for you. "
+        step4= "Arrive on time.  Dinner parties are different from parties.  Timing affects the food.  Don't stay too late.  Pay attention to the host's body language."                                                                                                                                                                                                                        
+        step5="Don't give up.  Sometimes it's hard to be a good dinner guest.  Don't let that stop you from accepting an invite in the future.  Go buy a couple of bottles of red wine to have on hand to bring to the next dinner party you are invited to."
+        introduction="" />,    
+
+     <Page title="How to do Laundry at a Landromat"
+        videoID= "https://www.youtube-nocookie.com/embed/QsyPECwiolw"
+        quote ="Now they show you how detergents take out bloodstains, a pretty violent image there.  I think if you've got a T-shirt with a bloodstain all over it, maybe laundry isn't your biggest problem.  Maybe you should get rid of the body before you do the wash."
+        quoteAuthor ="Jerry Seinfeld"
+        moreInfo="You've always been able to do laundry at your folks or on campus, but now you have moved some place new and you don't have laundry facilities.  Going to a laundromat for the first time can be scary, but you may find out that you like it even more than doing laundry at home.  Some benfits include: being able to get many loads done all within about an hour, making new friends, having time where you are forced to read a book or talk to other grownups."
+        step1= "Find a laundromat.  It might help to do a dry run without clothes so you can see what the inside set up is.  You might even ask the other patrons at this time to recommend the hot dryers!"
+        step2= "Determine if you need to bring your own quarters with you or if you can make change at the laundromat.  Plan accordingly."
+        step3="A good laundromat has rolly baskets that you can put your clothes in to roll from washer to dryer.  Seek this kind of laundromat out.  It will help protect your back!"
+        step4= "Separate your wash into smaller groupings for the dryers. Your clothes will dry faster."                                                                                                                                                                                                                        
+        step5=" Fold or hang your clothes before leaving.  It makes the transport home easier and you will be grateful that your clothes are folded when you get home.  You are an adult who shouldn't wear wrinkly clothes!"
+        introduction="" />,    
+        
+    <Page title="How to Put a Hold on Your Mail"
+        videoID= "https://www.youtube-nocookie.com/embed/Xxd3UV8hxCY"
+        quote ="The proper definition of a man is an animal that writes letters."
+        quoteAuthor ="Lewis Carroll"
+
+        moreInfo="When you leave town for vacation or work, you may want to place your mail on hold.  This prevents your mail from piling up and thieves from knowing that you are out of town.  It is super easy to do, and worth the 5 minute initial set up time.  There is no cost.  And if your dates change, it is easy to update the system."
+        step1= "Go to www.usps.com and click on the /'Track /& Manage/' tab. "
+        step2= "Select Hold Mail."
+        step3="Create or sign in to your USPS.com account."
+        step4= "You will need to verify your identity (This is a new step!!! and if it can't be done online, they will have to mail you something, which may take time!!)"                                                                                                                                                                                                                        
+        step5="Choose the dates you want your mail held.  Requests can be made up to 30 days in advance and holds can be placed for between 3 and 30 days."
+        introduction="" />,    
 
     <Page title="How to Make A How To"
         videoID="https://www.youtube-nocookie.com/embed/"
