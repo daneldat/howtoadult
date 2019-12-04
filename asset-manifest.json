@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/howtoadult/static/css/main.defc26f5.chunk.css",
-    "main.js": "/howtoadult/static/js/main.391a06ad.chunk.js",
-    "main.js.map": "/howtoadult/static/js/main.391a06ad.chunk.js.map",
+    "main.js": "/howtoadult/static/js/main.694a827f.chunk.js",
+    "main.js.map": "/howtoadult/static/js/main.694a827f.chunk.js.map",
     "runtime-main.js": "/howtoadult/static/js/runtime-main.3cc4e864.js",
     "runtime-main.js.map": "/howtoadult/static/js/runtime-main.3cc4e864.js.map",
-    "static/js/2.18eecb00.chunk.js": "/howtoadult/static/js/2.18eecb00.chunk.js",
-    "static/js/2.18eecb00.chunk.js.map": "/howtoadult/static/js/2.18eecb00.chunk.js.map",
+    "static/js/2.974191bd.chunk.js": "/howtoadult/static/js/2.974191bd.chunk.js",
+    "static/js/2.974191bd.chunk.js.map": "/howtoadult/static/js/2.974191bd.chunk.js.map",
     "index.html": "/howtoadult/index.html",
-    "precache-manifest.8faf7a0ee002cb1011d25c5193695c0c.js": "/howtoadult/precache-manifest.8faf7a0ee002cb1011d25c5193695c0c.js",
+    "precache-manifest.6f69824c9d46d948ab964b0cc1094a4a.js": "/howtoadult/precache-manifest.6f69824c9d46d948ab964b0cc1094a4a.js",
     "service-worker.js": "/howtoadult/service-worker.js",
     "static/css/main.defc26f5.chunk.css.map": "/howtoadult/static/css/main.defc26f5.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.3cc4e864.js",
-    "static/js/2.18eecb00.chunk.js",
+    "static/js/2.974191bd.chunk.js",
     "static/css/main.defc26f5.chunk.css",
-    "static/js/main.391a06ad.chunk.js"
+    "static/js/main.694a827f.chunk.js"
   ]
 }
