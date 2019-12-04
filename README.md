@@ -1,16 +1,28 @@
-Welcome to our How To Adult App, an app designed by a bunch of people who are trying to adult, and want to help other pseudoadults adult too! 
+# How To Adult
+Welcome to our How To Adult Site, a website designed by a bunch of people who are trying to adult, and want to help other pseudoadults adult too! <br />
 
-If you have any requests to add information to our website, please email us at:
+Each page helps to break down complicated Adulting topics in 5 easy steps. And for those who don't want to read, each 5 step how-to is followed by a handy dandy video. <br />
 
+This was developed for IT-280B at St.Bonaventure University. <br />
 
+If you have any requests to add information to our website, please email us at: howtoadultsbu@gmail.com
 
-All of this information came with the file that Shiki set us up with. It seems like it is important so we're not going to touch it 
-
-To  learn about how to use react, click this linky: https://reactjs.org
+## Some Background Information
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## React Router 
+This app uses react router, a collection of navigational components that compose declaritively within the website. <br />
+
+Instal react router using 
+```npm install react-router-dom```
+To find out more about using react router, click [Here](https://reacttraining.com/react-router/web/guides/quick-start) for React Training <br/>
+
+For the docs, click [Here](https://github.com/ReactTraining/react-router) for their github page.
+
+## 
+
+## Available Scripts 
 
 In the project directory, you can run:
 

@@ -1,6 +1,7 @@
 {
   "name": "how-to-adult",
   "version": "0.1.0",
+  "homepage" : "https://daneldat.github.io/howtoadult/",
   "private": true,
   "dependencies": {
     "react": "^16.10.2",
