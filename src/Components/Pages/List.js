@@ -1,13 +1,5 @@
-import React, { Component } from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useParams
-} from "react-router-dom";
+import React from 'react';
 import "../../w3.css";
-import PageList from "./PageList";
 
 
 
@@ -64,9 +56,11 @@ class List extends React.Component {
     return (
       <div>
         <input type="text" className="input" onChange={this.handleChange} placeholder="Help! How do I..." />
-        {this.state.filtered.map(({ link, text }) => (
-          <div key={link}> {link} </div>
-        ))}
+        {this.state.filtered.map(({ link, text }) => {
+          return (
+          <div key={link.props.to}> {link} </div>
+          )
+        })}
       </div>
     );
   }

@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import ReactDOM from "react";
+import React from 'react';
 import "../../w3.css";
 
 
@@ -36,9 +35,10 @@ class Page extends React.Component {
                 <div className=" w3-container w3-card-2 w3-round-large w3-blue-grey w3-center w3-padding w3-display-center" style={{ "height": "50%", "width": "50%", "margin-left": "25%", "margin-right": "15%" }}>
                     Don't want to read? This video may help: <p></p>
                     <iframe
-                        className="w3-margin-bottom"
-                        width="90%vw"
+                        className="w3-margin-bottom w3-container"
+                        width="90%"
                         height="80%"
+                        title={this.props.videoID}
                         src={this.props.videoID}
                         frameBorder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
