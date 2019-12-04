@@ -20,19 +20,19 @@ export default class App extends React.Component {
     }
     this.state.list =
       PageList.map((Page, index) =>
-        (<Link to={"/howtoadult/page/" + Page.props.title.replace(/\s/g, "") + "-pageid" + index} className="w3-bar-item w3-button w3-bue-grey"> {Page.props.title}</Link>))
+        (<Link to={"/page/" + Page.props.title.replace(/\s/g, "") + "-pageid" + index} className="w3-bar-item w3-button w3-bue-grey"> {Page.props.title}</Link>))
     this.state.workingList = this.state.list.map(link => ({ link, text: link.props.children[1] }))
   };
   render() {
     return (
       <Router>
         <div className="w3-sidebar w3-bar-block w3-blue-grey" style={{ "width": "15%" }}>
-          <Link to="/howtoadult/" className="w3-bar-item w3-button w3-blue-grey">Home</Link>
+          <Link to="/" className="w3-bar-item w3-button w3-blue-grey">Home</Link>
           <List items={this.state.workingList} />
         </div>
         <Switch>
-          <Route path="/howtoadult/page/:id" children={Child} /> />
-          <Route path="/howtoadult/" component={Home} />
+          <Route path="/page/:id" children={(<Child />)} /> />
+          <Route path="/" component={Home} />
         </Switch>
       </Router>
     );
