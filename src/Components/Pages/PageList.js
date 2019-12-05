@@ -26,14 +26,13 @@ export default [
         step3="Start the timer as soon as you put the eggs in the water"
         step4="Cook your eggs according to how hard you want the yolk: Liquid (6 min), soft (8 min), medium (10 min), firm (12 min), traditional (14 min). Placing your eggs in an ice bath as soon as the timer is done. "
         step5="Tap the shell on a hard surface and peel under running water, peeling from the top/bottom of the egg."
-
         introduction="So many eggs" />,
 
     <Page title="How to Get Out of Bed in the Morning"
         quote="the courage it took to get out of bed each morning to face the same things over and over was enormous."
         quoteAuthor="Charles Bukowski"
         videoID="https://www.youtube-nocookie.com/embed/0iwkTJBfW2I"
-        moreInfo="The year is 3176, you clicked the "
+        moreInfo="Be careful with the snooze button. If you had to pay for each snooze, you'd be paying $1.48 per snooze. Snoozing a whole day's gonna cost you $266.4."
         step1="Give yourself 15 minutes to get out of bed."
         step2="Text a friend and ask for motivation."
         step3="Check out the youtube video while you are waiting."
@@ -94,7 +93,7 @@ export default [
         videoID="https://www.youtube-nocookie.com/embed/-Zr63hTicTU"
         quote="As I approached an intersection a sign suddenly appeared in a place where no stop sign had ever appeared before."
         quoteAuthor="Anonymous Car Insurance Claim"
-        moreInfo=""
+        moreInfo="So you've had a bad day. He Who Shall Not Be Named is back. Your son's best friend has been locked in his room and is not allowed to return to Hogwarts. Your son stole your car and flew it into a tree that completely destroyed it. Luckily he read this How-To and was able to take out car insurance."
         step1="Get together your car records. This includes your license, registration, current insurance, feature information, accidents and service history."
         step2="Go on your state DMV's website and find out what your minimum required insurance is."
         step3="Figure out how much additional insurance you want. Liability insurance covers your damage to others. Collision insurance involves crash damage to YOUR car. Comprehensive insurance covers damages that were outside your influence or control. Personal injury insurance will cover the treatement of your injuries. And finally, Uninsured mororist covereage covers you if you are hit by an uninsured or underinsured driver. "
@@ -187,7 +186,7 @@ export default [
         introduction="" />,
 
     <Page title="How to Grade an IT-280B Project"
-        videoID="https://www.youtube-nocookie.com/embed/Xxd3UV8hxCY"
+        videoID="https://www.youtube-nocookie.com/embed/UmfqFjpl0"
         quote="The proper definition of a man is an animal that writes letters."
         quoteAuthor="Lewis Carroll"
         moreInfo="Someday in your life you may get the chance to grade an IT-280B final project. If today is that day....then pay attention."
