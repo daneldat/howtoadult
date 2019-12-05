@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f879a95e4d035d174c7fa6683a2a6294",
+    "revision": "3e7d809d8e3f8d69fff02632fe2788a1",
     "url": "/howtoadult/index.html"
   },
   {
-    "revision": "f331f93e4339cf7b1c94",
+    "revision": "95d15b598f60021aaa9b",
     "url": "/howtoadult/static/css/main.defc26f5.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/howtoadult/static/js/2.974191bd.chunk.js"
   },
   {
-    "revision": "f331f93e4339cf7b1c94",
-    "url": "/howtoadult/static/js/main.a42ce315.chunk.js"
+    "revision": "95d15b598f60021aaa9b",
+    "url": "/howtoadult/static/js/main.910c305a.chunk.js"
   },
   {
     "revision": "54463c3a945d108de7be",
