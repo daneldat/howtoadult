@@ -66,7 +66,7 @@ export default [
         step5="If your toilet is still clogged, you may need to contact a plumber to remove the clog."
         introduction="" />,
 
-    <Page title="How to Pay your Taxes"
+    <Page title="How to Pay Your Taxes"
         videoID="https://www.youtube-nocookie.com/embed/NtVYBYELwJI"
         quote="In this world nothing can be said to be certain, except death and taxes."
         quoteAuthor="Benjamin Franklin"
