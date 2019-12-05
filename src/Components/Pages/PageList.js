@@ -150,7 +150,7 @@ export default [
         step5="Most of your laundry can be washed in cold water, except for cotton underwear, bedsheets and towels which should be washed in hot water."
         introduction="" />,
 
-    <Page title="How to be a good Dinner Guest"
+    <Page title="How to be a Good Dinner Guest"
         videoID="https://www.youtube-nocookie.com/embed/KU3zkxBAEPc"
         quote="If you can't be kind, at least be vague."
         quoteAuthor="Judith Martin"
@@ -184,6 +184,18 @@ export default [
         step3="Create or sign in to your USPS.com account."
         step4="You will need to verify your identity (This is a new step!!! and if it can't be done online, they will have to mail you something, which may take time!!)"
         step5="Choose the dates you want your mail held.  Requests can be made up to 30 days in advance and holds can be placed for between 3 and 30 days."
+        introduction="" />,
+
+    <Page title="How to Grade an IT-280B Project"
+        videoID="https://www.youtube-nocookie.com/embed/Xxd3UV8hxCY"
+        quote="The proper definition of a man is an animal that writes letters."
+        quoteAuthor="Lewis Carroll"
+        moreInfo="Someday in your life you may get the chance to grade an IT-280B final project. If today is that day....then pay attention."
+        step1="Go to daneldat.github.io/howtoadult preferably on a laptop."
+        step2="Take out your grading sheet provided by Mike Mak. and company."
+        step3="Remember that this project is brought to you by the letter 'N'. That is...New programmers."
+        step4="Browse the site.  Use the search function.  Enjoy our humor.  Ask us questions."
+        step5="Assign a high grade. :-)"
         introduction="" />,
 
     <Page title="How to Make A How To"
