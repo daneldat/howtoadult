@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/howtoadult/static/css/main.defc26f5.chunk.css",
-    "main.js": "/howtoadult/static/js/main.910c305a.chunk.js",
-    "main.js.map": "/howtoadult/static/js/main.910c305a.chunk.js.map",
+    "main.js": "/howtoadult/static/js/main.d59a3fbb.chunk.js",
+    "main.js.map": "/howtoadult/static/js/main.d59a3fbb.chunk.js.map",
     "runtime-main.js": "/howtoadult/static/js/runtime-main.3cc4e864.js",
     "runtime-main.js.map": "/howtoadult/static/js/runtime-main.3cc4e864.js.map",
     "static/js/2.974191bd.chunk.js": "/howtoadult/static/js/2.974191bd.chunk.js",
     "static/js/2.974191bd.chunk.js.map": "/howtoadult/static/js/2.974191bd.chunk.js.map",
     "index.html": "/howtoadult/index.html",
-    "precache-manifest.d992c628087dbfed27aaaa57365f0cb5.js": "/howtoadult/precache-manifest.d992c628087dbfed27aaaa57365f0cb5.js",
+    "precache-manifest.049fbf49a313740e6ca4b26a75335b8f.js": "/howtoadult/precache-manifest.049fbf49a313740e6ca4b26a75335b8f.js",
     "service-worker.js": "/howtoadult/service-worker.js",
     "static/css/main.defc26f5.chunk.css.map": "/howtoadult/static/css/main.defc26f5.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.3cc4e864.js",
     "static/js/2.974191bd.chunk.js",
     "static/css/main.defc26f5.chunk.css",
-    "static/js/main.910c305a.chunk.js"
+    "static/js/main.d59a3fbb.chunk.js"
   ]
 }
