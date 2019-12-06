@@ -43,12 +43,6 @@ export default class HomeScreen extends React.Component {
             Just click on one of the links on the sidebar to learn how to adult, and if you have any questions or ideas to add to our database of adulting tips, let us know down below
             </p>
           <QuoteBank />
-          <p className=" w3-container w3-center" style={{ "marginTop": "5%" }}>
-            Created by Dr. Christine Uhl and Danelda Theron
-            <br>
-              With Special Thanks To Michael Makutonin, Shiki Dixit, Jacob Neu, Ashley Delvento, and Joshua Foster.
-            </br>
-          </p>
         </div>
       </div>
     )
