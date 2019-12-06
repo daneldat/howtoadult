@@ -5,10 +5,6 @@ Each page helps to break down complicated Adulting topics in 5 easy steps. And f
 
 This was developed for IT-280B at St.Bonaventure University. <br />
 
-## Some Background Information
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## React Router 
 This app uses react router, a collection of navigational components that compose declaritively within the website. <br />
 
